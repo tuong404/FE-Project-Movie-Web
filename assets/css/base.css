@@ -1,0 +1,30 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --primary-color: #EE4D2D;
+    --border-color: #bdbdbd;
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.header__navbar-brigde::after {
+    content: "";
+    position: absolute;
+    top: 19px;
+    left: 0;
+    height: 25px;
+    width: 63px;
+    cursor: pointer;
+}

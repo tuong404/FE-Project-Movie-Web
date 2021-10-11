@@ -1,0 +1,1667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phim Chiếu Rạp</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="../assets/css/phimchieurap.css">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/grid.css">
+    <link rel="stylesheet" href="../assets/css/reponsive.css">
+    <link rel="icon" href="https://fimfast.com/favicon.ico?v=20180927" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/font/fontawesome-free-5.13.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=vietnamese" rel="stylesheet">
+</head>
+
+<body>
+    <div class="phimchieurap">
+        <!-- HEADER -->
+        <header class="header">
+            <div class="header-width">
+                <nav class="header__navbar">
+                    <div class="header-navbar-left">
+                        <a class="header__navbar-link-logo" href="../index.html">
+                            <img src="../assets/img/cropped-logo--192x192.png" alt="m10" class="header__navbar-logo">
+                        </a>
+                        <label for="header__navbar-checkbox" class="header__navbar-icon">
+                            <i class="fas fa-bars"></i>
+                        </label>
+                    </div>
+                    <input type="checkbox" hidden id="header__navbar-checkbox" class="header__navbar-checkbox">
+                    <label for="header__navbar-checkbox" class="header__navbar-overlay"></label>
+                    <div class="header__navbar-menu">
+                        <div class="header__navbar-menu-top">
+                            <a class="header__navbar-link-logo-mb" href="#">
+                                <img src="../assets/img/cropped-logo--192x192.png" alt="m10" class="header__navbar-logo">
+                            </a>
+                            <label for="header__navbar-checkbox" class="header__navbar-exit">
+                                <i class="fas fa-times"></i>
+                            </label>
+
+                        </div>
+                        <div class="header__navbar-search">
+                            <input type="text" class="header__navbar-input" placeholder="Tìm Kiếm">
+
+                            <i class="fas fa-search header__navbar-logo-search"></i>
+
+                            <div class="header__navbar-search-box">
+                                <p>
+                                    Nhập tên phim để tìm kiếm
+                                </p>
+                            </div>
+                        </div>
+                        <ul class="header__navbar-list">
+                            <li class="header__navbar-item header__navbar-item--first  header__navbar-brigde">
+                                <a href="#" class="header__navbar-link">
+                                    <i class="fas fa-book-open"></i> Thể Loại
+                                </a>
+                                <div class="header__navbar-category">
+                                    <ul class="header__navbar-category-list">
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Hành Động
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Tình Cảm
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Hài Hước
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Thần Thoại
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Âm Nhạc
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Khoa Học
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Lịch Sử
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Kiếm Hiệp
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Tiểu Sử
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Huyền Huyễn
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Phiêu Lưu
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Hoạt Hình
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Tâm Lý
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Chiến Tranh
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                    <ul class="header__navbar-category-list">
+
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Hình Sự
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Tài Liệu
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Gia Đình
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Kịch Tính
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Thanh Xuân
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Tiên Hiệp
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Kinh Dị
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Viễn Tưởng
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Cổ Trang
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Tv Show
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Thể Thao
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Bí Ẩn
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Học Đường
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Other
+                                            </a>
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+                            </li>
+                            <li class="header__navbar-item header__navbar-brigde ">
+                                <a href="#" class="header__navbar-link">
+                                    <i class="fas fa-globe-europe"></i> Quốc Gia
+                                </a>
+                                <div class="header__navbar-nation">
+                                    <ul class="header__navbar-nation-list">
+                                        <li class="header__navbar-nation-item">
+                                            <a href="#" class="header__navbar-nation-link">
+                                                Trung Quốc
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-nation-item">
+                                            <a href="#" class="header__navbar-nation-link">
+                                                Mỹ
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-nation-item">
+                                            <a href="#" class="header__navbar-nation-link">
+                                                Hồng Kông
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-nation-item">
+                                            <a href="#" class="header__navbar-nation-link">
+                                                Ấn Độ
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-nation-item">
+                                            <a href="#" class="header__navbar-nation-link">
+                                                Canada
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-nation-item">
+                                            <a href="#" class="header__navbar-nation-link">
+                                                Nga
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-nation-item">
+                                            <a href="#" class="header__navbar-nation-link">
+                                                Hàn Quốc
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-nation-item">
+                                            <a href="#" class="header__navbar-nation-link">
+                                                Châu Âu
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-nation-item">
+                                            <a href="#" class="header__navbar-nation-link">
+                                                Thái Lan
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                    <ul class="header__navbar-nation-list">
+                                        <li class="header__navbar-nation-item">
+                                            <a href="#" class="header__navbar-nation-link">
+                                                Pháp
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-nation-item">
+                                            <a href="#" class="header__navbar-nation-link">
+                                                Đức
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-nation-item">
+                                            <a href="#" class="header__navbar-nation-link">
+                                                Úc
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-nation-item">
+                                            <a href="#" class="header__navbar-nation-link">
+                                                Đài Loan
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-nation-item">
+                                            <a href="#" class="header__navbar-nation-link">
+                                                Nhật Bản
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-nation-item">
+                                            <a href="#" class="header__navbar-nation-link">
+                                                Châu Á
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-nation-item">
+                                            <a href="#" class="header__navbar-nation-link">
+                                                Anh
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-nation-item">
+                                            <a href="#" class="header__navbar-nation-link">
+                                                Tây Ban Nha
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a href="#" class="header__navbar-link header__navbar-brigde">
+                                    <i class="fas fa-film"></i> Phim Lẻ
+                                </a>
+                                <div class="header__navbar-oddfilm">
+                                    <ul class="header__navbar-oddfilm-list">
+                                        <li class="header__navbar-oddfilm-item">
+                                            <a href="#" class="header__navbar-oddfilm-link">
+                                                Mới Nhất
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-oddfilm-item">
+                                            <a href="#" class="header__navbar-oddfilm-link">
+                                                Năm 2020
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-oddfilm-item">
+                                            <a href="#" class="header__navbar-oddfilm-link">
+                                                Năm 2019
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-oddfilm-item">
+                                            <a href="#" class="header__navbar-oddfilm-link">
+                                                Năm 2018
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-oddfilm-item">
+                                            <a href="#" class="header__navbar-oddfilm-link">
+                                                Năm 2017
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-oddfilm-item">
+                                            <a href="#" class="header__navbar-oddfilm-link">
+                                                Năm 2016
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="header__navbar-oddfilm-list">
+
+                                        <li class="header__navbar-oddfilm-item">
+                                            <a href="#" class="header__navbar-oddfilm-link">
+                                                Năm 2015
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-oddfilm-item">
+                                            <a href="#" class="header__navbar-oddfilm-link">
+                                                Năm 2014
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-oddfilm-item">
+                                            <a href="#" class="header__navbar-oddfilm-link">
+                                                Năm 2013
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-oddfilm-item">
+                                            <a href="#" class="header__navbar-oddfilm-link">
+                                                Năm 2012
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-oddfilm-item">
+                                            <a href="#" class="header__navbar-oddfilm-link">
+                                                Năm 2011
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-oddfilm-item">
+                                            <a href="#" class="header__navbar-oddfilm-link">
+                                                Năm 2010
+                                            </a>
+                                        </li>
+
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header__navbar-item header__navbar-brigde">
+                                <a href="#" class="header__navbar-link">
+                                    <i class="fas fa-newspaper"></i> Phim Bộ
+                                </a>
+                                <div class="header__navbar-seriesfilm">
+                                    <ul class="header__navbar-seriesfilm-list">
+                                        <li class="header__navbar-seriesfilm-item">
+                                            <a href="#" class="header__navbar-seriesfilm-link">
+                                                Mới Cập Nhật
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-seriesfilm-item">
+                                            <a href="#" class="header__navbar-seriesfilm-link">
+                                                Đài Loan
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-seriesfilm-item">
+                                            <a href="#" class="header__navbar-seriesfilm-link">
+                                                Hồng Kông
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-seriesfilm-item">
+                                            <a href="#" class="header__navbar-seriesfilm-link">
+                                                Trung Quốc
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-seriesfilm-item">
+                                            <a href="#" class="header__navbar-seriesfilm-link">
+                                                Mỹ
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="header__navbar-seriesfilm-list">
+                                        <li class="header__navbar-seriesfilm-item">
+                                            <a href="#" class="header__navbar-seriesfilm-link">
+                                                Thái Lan
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-seriesfilm-item">
+                                            <a href="#" class="header__navbar-seriesfilm-link">
+                                                Hàn Quốc
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-seriesfilm-item">
+                                            <a href="#" class="header__navbar-seriesfilm-link">
+                                                Nhật Bản
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-seriesfilm-item">
+                                            <a href="#" class="header__navbar-seriesfilm-link">
+                                                Ấn Độ
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a href="#" class="header__navbar-link">
+                                    <i class="fas fa-award"></i> Chiếu rạp
+                                </a>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a href="./topimdb.html" class="header__navbar-link">
+                                    <i class="fas fa-chart-bar"></i> Top IMDB
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header__navbar-container">
+                        <ul class="header__navbar-list">
+                            <li class="header__navbar-item header__navbar-item--first  header__navbar-brigde">
+                                <a href="#" class="header__navbar-link">
+                                    THỂ LOẠI
+                                </a>
+                                <div class="header__navbar-category">
+                                    <ul class="header__navbar-category-list">
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Hành Động
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Tình Cảm
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Hài Hước
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Thần Thoại
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Âm Nhạc
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Khoa Học
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Lịch Sử
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Kiếm Hiệp
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Tiểu Sử
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Huyền Huyễn
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="header__navbar-category-list">
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Phiêu Lưu
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Hoạt Hình
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Tâm Lý
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Chiến Tranh
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Hình Sự
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Tài Liệu
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Gia Đình
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Kịch Tính
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Thanh Xuân
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Tiên Hiệp
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="header__navbar-category-list">
+
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Kinh Dị
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Viễn Tưởng
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Cổ Trang
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Tv Show
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Thể Thao
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Bí Ẩn
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Học Đường
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-category-item">
+                                            <a href="#" class="header__navbar-category-link">
+                                                Other
+                                            </a>
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+                            </li>
+                            <li class="header__navbar-item header__navbar-brigde">
+                                <a href="#" class="header__navbar-link">
+                                    QUỐC GIA
+                                </a>
+                                <div class="header__navbar-nation">
+                                    <ul class="header__navbar-nation-list">
+                                        <li class="header__navbar-nation-item">
+                                            <a href="#" class="header__navbar-nation-link">
+                                                Trung Quốc
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-nation-item">
+                                            <a href="#" class="header__navbar-nation-link">
+                                                Mỹ
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-nation-item">
+                                            <a href="#" class="header__navbar-nation-link">
+                                                Hồng Kông
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-nation-item">
+                                            <a href="#" class="header__navbar-nation-link">
+                                                Ấn Độ
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-nation-item">
+                                            <a href="#" class="header__navbar-nation-link">
+                                                Canada
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-nation-item">
+                                            <a href="#" class="header__navbar-nation-link">
+                                                Nga
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                    <ul class="header__navbar-nation-list">
+                                        <li class="header__navbar-nation-item">
+                                            <a href="#" class="header__navbar-nation-link">
+                                                Hàn Quốc
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-nation-item">
+                                            <a href="#" class="header__navbar-nation-link">
+                                                Châu Âu
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-nation-item">
+                                            <a href="#" class="header__navbar-nation-link">
+                                                Thái Lan
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-nation-item">
+                                            <a href="#" class="header__navbar-nation-link">
+                                                Pháp
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-nation-item">
+                                            <a href="#" class="header__navbar-nation-link">
+                                                Đức
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-nation-item">
+                                            <a href="#" class="header__navbar-nation-link">
+                                                Úc
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="header__navbar-nation-list">
+
+                                        <li class="header__navbar-nation-item">
+                                            <a href="#" class="header__navbar-nation-link">
+                                                Đài Loan
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-nation-item">
+                                            <a href="#" class="header__navbar-nation-link">
+                                                Nhật Bản
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-nation-item">
+                                            <a href="#" class="header__navbar-nation-link">
+                                                Châu Á
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-nation-item">
+                                            <a href="#" class="header__navbar-nation-link">
+                                                Anh
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-nation-item">
+                                            <a href="#" class="header__navbar-nation-link">
+                                                Tây Ban Nha
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a href="#" class="header__navbar-link header__navbar-brigde">
+                                    PHIM LẺ
+                                </a>
+                                <div class="header__navbar-oddfilm">
+                                    <ul class="header__navbar-oddfilm-list">
+                                        <li class="header__navbar-oddfilm-item">
+                                            <a href="#" class="header__navbar-oddfilm-link">
+                                                Mới Nhất
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-oddfilm-item">
+                                            <a href="#" class="header__navbar-oddfilm-link">
+                                                Năm 2020
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-oddfilm-item">
+                                            <a href="#" class="header__navbar-oddfilm-link">
+                                                Năm 2019
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-oddfilm-item">
+                                            <a href="#" class="header__navbar-oddfilm-link">
+                                                Năm 2018
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="header__navbar-oddfilm-list">
+                                        <li class="header__navbar-oddfilm-item">
+                                            <a href="#" class="header__navbar-oddfilm-link">
+                                                Năm 2017
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-oddfilm-item">
+                                            <a href="#" class="header__navbar-oddfilm-link">
+                                                Năm 2016
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-oddfilm-item">
+                                            <a href="#" class="header__navbar-oddfilm-link">
+                                                Năm 2015
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-oddfilm-item">
+                                            <a href="#" class="header__navbar-oddfilm-link">
+                                                Năm 2014
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="header__navbar-oddfilm-list">
+
+                                        <li class="header__navbar-oddfilm-item">
+                                            <a href="#" class="header__navbar-oddfilm-link">
+                                                Năm 2013
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-oddfilm-item">
+                                            <a href="#" class="header__navbar-oddfilm-link">
+                                                Năm 2012
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-oddfilm-item">
+                                            <a href="#" class="header__navbar-oddfilm-link">
+                                                Năm 2011
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-oddfilm-item">
+                                            <a href="#" class="header__navbar-oddfilm-link">
+                                                Năm 2010
+                                            </a>
+                                        </li>
+
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header__navbar-item header__navbar-brigde">
+                                <a href="#" class="header__navbar-link">
+                                    PHIM BỘ
+                                </a>
+                                <div class="header__navbar-seriesfilm">
+                                    <ul class="header__navbar-seriesfilm-list">
+                                        <li class="header__navbar-seriesfilm-item">
+                                            <a href="#" class="header__navbar-seriesfilm-link">
+                                                Mới Cập Nhật
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-seriesfilm-item">
+                                            <a href="#" class="header__navbar-seriesfilm-link">
+                                                Đài Loan
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-seriesfilm-item">
+                                            <a href="#" class="header__navbar-seriesfilm-link">
+                                                Hồng Kông
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="header__navbar-seriesfilm-list">
+                                        <li class="header__navbar-seriesfilm-item">
+                                            <a href="#" class="header__navbar-seriesfilm-link">
+                                                Trung Quốc
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-seriesfilm-item">
+                                            <a href="#" class="header__navbar-seriesfilm-link">
+                                                Mỹ
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-seriesfilm-item">
+                                            <a href="#" class="header__navbar-seriesfilm-link">
+                                                Thái Lan
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="header__navbar-seriesfilm-list">
+
+                                        <li class="header__navbar-seriesfilm-item">
+                                            <a href="#" class="header__navbar-seriesfilm-link">
+                                                Hàn Quốc
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-seriesfilm-item">
+                                            <a href="#" class="header__navbar-seriesfilm-link">
+                                                Nhật Bản
+                                            </a>
+                                        </li>
+                                        <li class="header__navbar-seriesfilm-item">
+                                            <a href="#" class="header__navbar-seriesfilm-link">
+                                                Ấn Độ
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a href="#" class="header__navbar-link">
+                                    CHIẾU RẠP
+                                </a>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a href="./topimdb.html" class="header__navbar-link">
+                                    TOP IMDB
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="header__navbar-search">
+                            <input type="text" class="header__navbar-input" placeholder="Tìm Kiếm">
+
+                            <i class="fas fa-search header__navbar-logo-search"></i>
+
+                            <div class="header__navbar-search-box">
+                                <p>
+                                    Nhập tên phim để tìm kiếm
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="header__navbar-social">
+                        <div class="header__navbar-social-fb">
+                            <a href="#" class="header__navbar-social-link">
+                                <i class="fab fa-facebook header__navbar-facebook-icon"></i>
+                            </a>
+                        </div>
+                        <div class="header__navbar-social-user">
+                            <a href="#" class="header__navbar-social-link">
+                                <i class="far fa-user header__navbar-user-icon"></i>
+                            </a>
+                        </div>
+                        <div class="header__navbar-social-login">
+                            <div class="login__top">
+                                <div class="login__top-left">
+                                    <i class="left__close fas fa-times"></i>
+                                    <h3 class="login__top-title">
+                                        Chào khách!
+                                    </h3>
+                                    <span class="login_top-signin">
+                                        Đăng nhập
+                                    </span>
+                                    <span class="login_top-signup">
+                                        Đăng ký
+                                    </span>
+                                </div>
+                                <div class="login__top-right">
+                                    <!-- <img class="login__top-avatar" src="./assets/img/cropped-logo--192x192.png" alt="avatar"> -->
+                                </div>
+                            </div>
+                            <div class="login__bottom">
+                                <form class="login__bottom-form" action="" method="POST">
+                                    <div class="form__group">
+                                        <label for="">Tên đăng nhập</label>
+                                        <input type="text" name="" id="">
+                                        <i class="fas fa-user"></i>
+                                    </div>
+                                    <div class="form__group">
+                                        <label for="">Mật khẩu</label>
+                                        <input type="text" name="" id="">
+                                        <i class="fas fa-lock"></i>
+                                    </div>
+                                    <div class="form__group-remember">
+                                        <div class="remember__left">
+                                            <input type="checkbox" checked name="" id="">
+                                            <span> Ghi nhớ</span>
+                                        </div>
+                                        <a href="#">Quên mật khẩu</a>
+                                    </div>
+
+                                    <button class="form__btn">Đăng nhập</button>
+
+                                    <hr class="form__line">
+                                    <div class="form__social">
+                                        <a href="#" class="form__social-link"> Đăng nhập với facebook</a>
+                                        <i class="fab fa-facebook-f"></i>
+                                    </div>
+                                    <div class="form__social">
+                                        <a href="#" class="form__social-link"> Đăng nhập với google</a>
+                                        <i class="fab fa-google"></i>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal"></div>
+
+                </nav>
+            </div>
+        </header>
+        <!-- CONTAINER -->
+        <div class="container">
+            <div class="grid wide">
+                <div class="tray-title">
+                    <div class="tray-title-left">
+                        <img src="../assets/img/icon-media.png" alt="camera-movie">
+                        <a href="#">PHIM CHIẾU RẠP</a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="container-item-movie">
+                            <a href="#" class="container-item-link-movie">
+                                <img src="../assets/img/chung-nhan-hoan-hao.jpg" alt="" class="container__img-movie">
+                                <h4 class="container__translate-movie"> Viet-Engsub</h4>
+                                <i class="fab fa-youtube container__icon-movie"></i>
+                                <i class="far fa-play-circle container__icon-play-movie"></i>
+                                <h4 class="container__quality-movie">
+                                    FHD
+                                </h4>
+                                <div class="container-rate">
+                                    <i class="fas fa-star container-rate-icon"></i>
+                                    <span class="container-movie-point">5.4/10</span>
+                                </div>
+                                <h4 class="container__filmname-movie">Chứng Nhân Hoàn Hảo</h4>
+                                <div class="container-time">
+                                    <span class="container__view-movie">617 xem</span>
+                                    <span class="container__time-movie">2/20 tập</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="container-item-movie">
+                            <a href="#" class="container-item-link-movie">
+                                <img src="../assets/img/dem-song-con.jpg" alt="" class="container__img-movie">
+                                <h4 class="container__translate-movie"> VietSub</h4>
+                                <i class="fab fa-youtube container__icon-movie"></i>
+                                <i class="far fa-play-circle container__icon-play-movie"></i>
+                                <h4 class="container__quality-movie">
+                                    HD
+                                </h4>
+                                <div class="container-rate">
+                                    <i class="fas fa-star container-rate-icon"></i>
+                                    <span class="container-movie-point">5.4/10</span>
+                                </div>
+                                <h4 class="container__filmname-movie">Đêm Sống Còn</h4>
+                                <div class="container-time">
+                                    <span class="container__view-movie">617 xem</span>
+                                    <span class="container__time-movie">2/20 tập</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="container-item-movie">
+                            <a href="#" class="container-item-link-movie">
+                                <img src="../assets/img/cuoc-giai-cuu-hang-tham-luang.jpg" alt="" class="container__img-movie">
+                                <h4 class="container__translate-movie"> VietSub</h4>
+                                <i class="fab fa-youtube container__icon-movie"></i>
+                                <i class="far fa-play-circle container__icon-play-movie"></i>
+                                <h4 class="container__quality-movie container__quality-movie--top">
+                                    HD
+                                </h4>
+                                <div class="container-rate container-rate--top">
+                                    <i class="fas fa-star container-rate-icon"></i>
+                                    <span class="container-movie-point">5.4/10</span>
+                                </div>
+                                <h4 class="container__filmname-movie ">Cuộc Giải Cứu Hang Tham Luang</h4>
+                                <div class="container-time">
+                                    <span class="container__view-movie">617 xem</span>
+                                    <span class="container__time-movie">2/20 tập</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="container-item-movie">
+                            <a href="#" class="container-item-link-movie">
+                                <img src="../assets/img/con-mua-tinh-dau.jpg" alt="" class="container__img-movie">
+                                <h4 class="container__translate-movie"> VietSub</h4>
+                                <i class="fab fa-youtube container__icon-movie"></i>
+                                <i class="far fa-play-circle container__icon-play-movie"></i>
+                                <h4 class="container__quality-movie">
+                                    HD
+                                </h4>
+                                <div class="container-rate">
+                                    <i class="fas fa-star container-rate-icon"></i>
+                                    <span class="container-movie-point">5.4/10</span>
+                                </div>
+                                <h4 class="container__filmname-movie">Cơn Mưa Tình Đầu</h4>
+                                <div class="container-time">
+                                    <span class="container__view-movie">617 xem</span>
+                                    <span class="container__time-movie">2/20 tập</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="container-item-movie">
+                            <a href="#" class="container-item-link-movie">
+                                <img src="../assets/img/project power.jpg" alt="" class="container__img-movie">
+                                <h4 class="container__translate-movie"> VietSub</h4>
+                                <i class="fab fa-youtube container__icon-movie"></i>
+                                <i class="far fa-play-circle container__icon-play-movie"></i>
+                                <h4 class="container__quality-movie">
+                                    HD
+                                </h4>
+                                <div class="container-rate">
+                                    <i class="fas fa-star container-rate-icon"></i>
+                                    <span class="container-movie-point">5.4/10</span>
+                                </div>
+                                <h4 class="container__filmname-movie">Project Power</h4>
+                                <div class="container-time">
+                                    <span class="container__view-movie">617 xem</span>
+                                    <span class="container__time-movie"></span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="container-item-movie">
+                            <a href="#" class="container-item-link-movie">
+                                <img src="../assets/img/cuoc-lot-xac-huy-hoang.jpg" alt="" class="container__img-movie">
+                                <h4 class="container__translate-movie"> VietSub</h4>
+                                <i class="fab fa-youtube container__icon-movie"></i>
+                                <i class="far fa-play-circle container__icon-play-movie"></i>
+                                <h4 class="container__quality-movie container__quality-movie--top">
+                                    HD
+                                </h4>
+                                <div class="container-rate container-rate--top">
+                                    <i class="fas fa-star container-rate-icon"></i>
+                                    <span class="container-movie-point">5.4/10</span>
+                                </div>
+                                <h4 class="container__filmname-movie">Cuộc Lột Xác Huy Hoàng Của Harley Quinn</h4>
+                                <div class="container-time">
+                                    <span class="container__view-movie">617 xem</span>
+                                    <span class="container__time-movie">2/20 tập</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="container-item-movie">
+                            <a href="#" class="container-item-link-movie">
+                                <img src="../assets/img/ca-sau-tu-than.jpg" alt="" class="container__img-movie">
+                                <h4 class="container__translate-movie"> VietSub</h4>
+                                <i class="fab fa-youtube container__icon-movie"></i>
+                                <i class="far fa-play-circle container__icon-play-movie"></i>
+                                <h4 class="container__quality-movie">
+                                    HD
+                                </h4>
+                                <div class="container-rate">
+                                    <i class="fas fa-star container-rate-icon"></i>
+                                    <span class="container-movie-point">5.4/10</span>
+                                </div>
+                                <h4 class="container__filmname-movie">Cá Sấu Tử Thần</h4>
+                                <div class="container-time">
+                                    <span class="container__view-movie">617 xem</span>
+                                    <span class="container__time-movie">2/20 tập</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="container-item-movie">
+                            <a href="#" class="container-item-link-movie">
+                                <img src="../assets/img/khu-vuon-bi-an.jpg" alt="" class="container__img-movie">
+                                <h4 class="container__translate-movie"> VietSub</h4>
+                                <i class="fab fa-youtube container__icon-movie"></i>
+                                <i class="far fa-play-circle container__icon-play-movie"></i>
+                                <h4 class="container__quality-movie">
+                                    HD
+                                </h4>
+                                <div class="container-rate">
+                                    <i class="fas fa-star container-rate-icon"></i>
+                                    <span class="container-movie-point">5.4/10</span>
+                                </div>
+                                <h4 class="container__filmname-movie">Khu Vườn Bí Ẩn</h4>
+                                <div class="container-time">
+                                    <span class="container__view-movie">617 xem</span>
+                                    <span class="container__time-movie">2/20 tập</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="container-item-movie">
+                            <a href="#" class="container-item-link-movie">
+                                <img src="../assets/img/dinh-thu-oan-khuat.jpg" alt="" class="container__img-movie">
+                                <h4 class="container__translate-movie"> VietSub</h4>
+                                <i class="fab fa-youtube container__icon-movie"></i>
+                                <i class="far fa-play-circle container__icon-play-movie"></i>
+                                <h4 class="container__quality-movie">
+                                    HD
+                                </h4>
+                                <div class="container-rate">
+                                    <i class="fas fa-star container-rate-icon"></i>
+                                    <span class="container-movie-point">5.4/10</span>
+                                </div>
+                                <h4 class="container__filmname-movie">Dinh Thự Oan Khuất</h4>
+                                <div class="container-time">
+                                    <span class="container__view-movie">617 xem</span>
+                                    <span class="container__time-movie">2/20 tập</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="container-item-movie">
+                            <a href="#" class="container-item-link-movie">
+                                <img src="../assets/img/Tàn Tích Quỷ Ám.jpg" alt="" class="container__img-movie">
+                                <h4 class="container__translate-movie"> VietSub</h4>
+                                <i class="fab fa-youtube container__icon-movie"></i>
+                                <i class="far fa-play-circle container__icon-play-movie"></i>
+                                <h4 class="container__quality-movie">
+                                    HD
+                                </h4>
+                                <div class="container-rate">
+                                    <i class="fas fa-star container-rate-icon"></i>
+                                    <span class="container-movie-point">5.4/10</span>
+                                </div>
+                                <h4 class="container__filmname-movie">Tàn Tích Quỷ Ám</h4>
+                                <div class="container-time">
+                                    <span class="container__view-movie">617 xem</span>
+                                    <span class="container__time-movie">2/20 tập</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="container-item-movie">
+                            <a href="#" class="container-item-link-movie">
+                                <img src="../assets/img/Bán Đảo Peninsula.jpg" alt="" class="container__img-movie">
+                                <h4 class="container__translate-movie"> VietSub</h4>
+                                <i class="fab fa-youtube container__icon-movie"></i>
+                                <i class="far fa-play-circle container__icon-play-movie"></i>
+                                <h4 class="container__quality-movie">
+                                    HD
+                                </h4>
+                                <div class="container-rate">
+                                    <i class="fas fa-star container-rate-icon"></i>
+                                    <span class="container-movie-point">5.4/10</span>
+                                </div>
+                                <h4 class="container__filmname-movie">Bán Đảo Peninsula</h4>
+                                <div class="container-time">
+                                    <span class="container__view-movie">617 xem</span>
+                                    <span class="container__time-movie">2/20 tập</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="container-item-movie">
+                            <a href="#" class="container-item-link-movie">
+                                <img src="../assets/img/pinocchio_2.jpg" alt="" class="container__img-movie">
+                                <h4 class="container__translate-movie"> VietSub</h4>
+                                <i class="fab fa-youtube container__icon-movie"></i>
+                                <i class="far fa-play-circle container__icon-play-movie"></i>
+                                <h4 class="container__quality-movie container__quality-movie--top">
+                                    HD
+                                </h4>
+                                <div class="container-rate container-rate--top">
+                                    <i class="fas fa-star container-rate-icon"></i>
+                                    <span class="container-movie-point">5.4/10</span>
+                                </div>
+                                <h4 class="container__filmname-movie">Cậu Bé Người Gỗ Pinocchio</h4>
+                                <div class="container-time">
+                                    <span class="container__view-movie">617 xem</span>
+                                    <span class="container__time-movie">2/20 tập</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="container-item-movie">
+                            <a href="#" class="container-item-link-movie">
+                                <img src="../assets/img/Kẻ Xâm Nhập.jpg" alt="" class="container__img-movie">
+                                <h4 class="container__translate-movie"> VietSub</h4>
+                                <i class="fab fa-youtube container__icon-movie"></i>
+                                <i class="far fa-play-circle container__icon-play-movie"></i>
+                                <h4 class="container__quality-movie">
+                                    HD
+                                </h4>
+                                <div class="container-rate">
+                                    <i class="fas fa-star container-rate-icon"></i>
+                                    <span class="container-movie-point">5.4/10</span>
+                                </div>
+                                <h4 class="container__filmname-movie">Kẻ Xâm Nhập</h4>
+                                <div class="container-time">
+                                    <span class="container__view-movie">617 xem</span>
+                                    <span class="container__time-movie">2/20 tập</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="container-item-movie">
+                            <a href="#" class="container-item-link-movie">
+                                <img src="../assets/img/Mắt_biếc.jpg" alt="" class="container__img-movie">
+                                <h4 class="container__translate-movie"> VietSub</h4>
+                                <i class="fab fa-youtube container__icon-movie"></i>
+                                <i class="far fa-play-circle container__icon-play-movie"></i>
+                                <h4 class="container__quality-movie">
+                                    HD
+                                </h4>
+                                <div class="container-rate">
+                                    <i class="fas fa-star container-rate-icon"></i>
+                                    <span class="container-movie-point">5.4/10</span>
+                                </div>
+                                <h4 class="container__filmname-movie">Mắt Biếc</h4>
+                                <div class="container-time">
+                                    <span class="container__view-movie">617 xem</span>
+                                    <span class="container__time-movie">2/20 tập</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="container-item-movie">
+                            <a href="#" class="container-item-link-movie">
+                                <img src="../assets/img/so thu thoat e venuscinema.jpg" alt="" class="container__img-movie">
+                                <h4 class="container__translate-movie"> VietSub</h4>
+                                <i class="fab fa-youtube container__icon-movie"></i>
+                                <i class="far fa-play-circle container__icon-play-movie"></i>
+                                <h4 class="container__quality-movie">
+                                    HD
+                                </h4>
+                                <div class="container-rate">
+                                    <i class="fas fa-star container-rate-icon"></i>
+                                    <span class="container-movie-point">5.4/10</span>
+                                </div>
+                                <h4 class="container__filmname-movie">Sở Thú Thoát Ế</h4>
+                                <div class="container-time">
+                                    <span class="container__view-movie">617 xem</span>
+                                    <span class="container__time-movie">2/20 tập</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="container-item-movie">
+                            <a href="#" class="container-item-link-movie">
+                                <img src="../assets/img/zzzzzzzz.jpg" alt="" class="container__img-movie">
+                                <h4 class="container__translate-movie"> VietSub</h4>
+                                <i class="fab fa-youtube container__icon-movie"></i>
+                                <i class="far fa-play-circle container__icon-play-movie"></i>
+                                <h4 class="container__quality-movie container__quality-movie--top">
+                                    HD
+                                </h4>
+                                <div class="container-rate container-rate--top">
+                                    <i class="fas fa-star container-rate-icon"></i>
+                                    <span class="container-movie-point">5.4/10</span>
+                                </div>
+                                <h4 class="container__filmname-movie">Gretel & Hansel: Truyện Cổ Kỳ Dị</h4>
+                                <div class="container-time">
+                                    <span class="container__view-movie">617 xem</span>
+                                    <span class="container__time-movie">2/20 tập</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="container-item-movie">
+                            <a href="#" class="container-item-link-movie">
+                                <img src="../assets/img/Sát Thủ Vô Cùng Cực.jpg" alt="" class="container__img-movie">
+                                <h4 class="container__translate-movie"> VietSub</h4>
+                                <i class="fab fa-youtube container__icon-movie"></i>
+                                <i class="far fa-play-circle container__icon-play-movie"></i>
+                                <h4 class="container__quality-movie">
+                                    HD
+                                </h4>
+                                <div class="container-rate">
+                                    <i class="fas fa-star container-rate-icon"></i>
+                                    <span class="container-movie-point">5.4/10</span>
+                                </div>
+                                <h4 class="container__filmname-movie">Sát Thủ Vô Cùng Cực</h4>
+                                <div class="container-time">
+                                    <span class="container__view-movie">617 xem</span>
+                                    <span class="container__time-movie">2/20 tập</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="container-item-movie">
+                            <a href="#" class="container-item-link-movie">
+                                <img src="../assets/img/Phi Vụ Bão Tố.jpg" alt="" class="container__img-movie">
+                                <h4 class="container__translate-movie"> VietSub</h4>
+                                <i class="fab fa-youtube container__icon-movie"></i>
+                                <i class="far fa-play-circle container__icon-play-movie"></i>
+                                <h4 class="container__quality-movie">
+                                    HD
+                                </h4>
+                                <div class="container-rate">
+                                    <i class="fas fa-star container-rate-icon"></i>
+                                    <span class="container-movie-point">5.4/10</span>
+                                </div>
+                                <h4 class="container__filmname-movie">Phi Vụ Bão Tố</h4>
+                                <div class="container-time">
+                                    <span class="container__view-movie">617 xem</span>
+                                    <span class="container__time-movie">2/20 tập</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="container-item-movie">
+                            <a href="#" class="container-item-link-movie">
+                                <img src="../assets/img/cau_be_artemis_fowl__eoin_colfer.jpg" alt="" class="container__img-movie">
+                                <h4 class="container__translate-movie"> VietSub</h4>
+                                <i class="fab fa-youtube container__icon-movie"></i>
+                                <i class="far fa-play-circle container__icon-play-movie"></i>
+                                <h4 class="container__quality-movie">
+                                    HD
+                                </h4>
+                                <div class="container-rate">
+                                    <i class="fas fa-star container-rate-icon"></i>
+                                    <span class="container-movie-point">5.4/10</span>
+                                </div>
+                                <h4 class="container__filmname-movie">Cậu Bé Artemis Fowl</h4>
+                                <div class="container-time">
+                                    <span class="container__view-movie">617 xem</span>
+                                    <span class="container__time-movie">2/20 tập</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="container-item-movie">
+                            <a href="#" class="container-item-link-movie">
+                                <img src="../assets/img/Bầu Trời Xanh Của Em.jpg" alt="" class="container__img-movie">
+                                <h4 class="container__translate-movie"> VietSub</h4>
+                                <i class="fab fa-youtube container__icon-movie"></i>
+                                <i class="far fa-play-circle container__icon-play-movie"></i>
+                                <h4 class="container__quality-movie">
+                                    HD
+                                </h4>
+                                <div class="container-rate">
+                                    <i class="fas fa-star container-rate-icon"></i>
+                                    <span class="container-movie-point">5.4/10</span>
+                                </div>
+                                <h4 class="container__filmname-movie">Bầu Trời Xanh Của Em</h4>
+                                <div class="container-time">
+                                    <span class="container__view-movie">617 xem</span>
+                                    <span class="container__time-movie">2/20 tập</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="container-item-movie">
+                            <a href="#" class="container-item-link-movie">
+                                <img src="../assets/img/Cậu Bé Ma 22.jpg" alt="" class="container__img-movie">
+                                <h4 class="container__translate-movie"> VietSub</h4>
+                                <i class="fab fa-youtube container__icon-movie"></i>
+                                <i class="far fa-play-circle container__icon-play-movie"></i>
+                                <h4 class="container__quality-movie">
+                                    HD
+                                </h4>
+                                <div class="container-rate">
+                                    <i class="fas fa-star container-rate-icon"></i>
+                                    <span class="container-movie-point">5.4/10</span>
+                                </div>
+                                <h4 class="container__filmname-movie">Cậu Bé Ma 2</h4>
+                                <div class="container-time">
+                                    <span class="container__view-movie">617 xem</span>
+                                    <span class="container__time-movie">2/20 tập</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="container-item-movie">
+                            <a href="#" class="container-item-link-movie">
+                                <img src="../assets/img/Quỷ Lùn Tinh Nghịch.jpg" alt="" class="container__img-movie">
+                                <h4 class="container__translate-movie"> VietSub</h4>
+                                <i class="fab fa-youtube container__icon-movie"></i>
+                                <i class="far fa-play-circle container__icon-play-movie"></i>
+                                <h4 class="container__quality-movie container__quality-movie--top">
+                                    HD
+                                </h4>
+                                <div class="container-rate container-rate--top">
+                                    <i class="fas fa-star container-rate-icon"></i>
+                                    <span class="container-movie-point">5.4/10</span>
+                                </div>
+                                <h4 class="container__filmname-movie">Quỷ Lùn Tinh Nghịch: Chuyến Lưu Diễn Thế Giới</h4>
+                                <div class="container-time">
+                                    <span class="container__view-movie">617 xem</span>
+                                    <span class="container__time-movie">2/20 tập</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="container-item-movie">
+                            <a href="#" class="container-item-link-movie">
+                                <img src="../assets/img/Nhím Sonic.jpg" alt="" class="container__img-movie">
+                                <h4 class="container__translate-movie"> VietSub</h4>
+                                <i class="fab fa-youtube container__icon-movie"></i>
+                                <i class="far fa-play-circle container__icon-play-movie"></i>
+                                <h4 class="container__quality-movie">
+                                    HD
+                                </h4>
+                                <div class="container-rate">
+                                    <i class="fas fa-star container-rate-icon"></i>
+                                    <span class="container-movie-point">5.4/10</span>
+                                </div>
+                                <h4 class="container__filmname-movie">Nhím Sonic</h4>
+                                <div class="container-time">
+                                    <span class="container__view-movie">617 xem</span>
+                                    <span class="container__time-movie">2/20 tập</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="container-item-movie">
+                            <a href="#" class="container-item-link-movie">
+                                <img src="../assets/img/BoBoiBoy Movie 2.jfif" alt="" class="container__img-movie">
+                                <h4 class="container__translate-movie"> VietSub</h4>
+                                <i class="fab fa-youtube container__icon-movie"></i>
+                                <i class="far fa-play-circle container__icon-play-movie"></i>
+                                <h4 class="container__quality-movie container__quality-movie--top">
+                                    HD
+                                </h4>
+                                <div class="container-rate container-rate--top">
+                                    <i class="fas fa-star container-rate-icon"></i>
+                                    <span class="container-movie-point">5.4/10</span>
+                                </div>
+                                <h4 class="container__filmname-movie">BoBoiBoy Movie 2: Cuộc Chiến Ngân Hà</h4>
+                                <div class="container-time">
+                                    <span class="container__view-movie">617 xem</span>
+                                    <span class="container__time-movie">2/20 tập</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="container-item-movie">
+                            <a href="#" class="container-item-link-movie">
+                                <img src="../assets/img/Cuộc Phiêu Lưu của Scooby-Doo.jpg" alt="" class="container__img-movie">
+                                <h4 class="container__translate-movie"> VietSub</h4>
+                                <i class="fab fa-youtube container__icon-movie"></i>
+                                <i class="far fa-play-circle container__icon-play-movie"></i>
+                                <h4 class="container__quality-movie container__quality-movie--top">
+                                    HD
+                                </h4>
+                                <div class="container-rate container-rate--top">
+                                    <i class="fas fa-star container-rate-icon"></i>
+                                    <span class="container-movie-point">5.4/10</span>
+                                </div>
+                                <h4 class="container__filmname-movie">Cuộc Phiêu Lưu của Scooby-Doo</h4>
+                                <div class="container-time">
+                                    <span class="container__view-movie">617 xem</span>
+                                    <span class="container__time-movie">2/20 tập</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="container-item-movie">
+                            <a href="#" class="container-item-link-movie">
+                                <img src="../assets/img/Đứa Con Của Thời Tiết.jfif" alt="" class="container__img-movie">
+                                <h4 class="container__translate-movie"> VietSub</h4>
+                                <i class="fab fa-youtube container__icon-movie"></i>
+                                <i class="far fa-play-circle container__icon-play-movie"></i>
+                                <h4 class="container__quality-movie">
+                                    HD
+                                </h4>
+                                <div class="container-rate">
+                                    <i class="fas fa-star container-rate-icon"></i>
+                                    <span class="container-movie-point">5.4/10</span>
+                                </div>
+                                <h4 class="container__filmname-movie">Đứa Con Của Thời Tiết</h4>
+                                <div class="container-time">
+                                    <span class="container__view-movie">617 xem</span>
+                                    <span class="container__time-movie">2/20 tập</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="container-item-movie">
+                            <a href="#" class="container-item-link-movie">
+                                <img src="../assets/img/Tran-chien-midway.jpg" alt="" class="container__img-movie">
+                                <h4 class="container__translate-movie"> VietSub</h4>
+                                <i class="fab fa-youtube container__icon-movie"></i>
+                                <i class="far fa-play-circle container__icon-play-movie"></i>
+                                <h4 class="container__quality-movie">
+                                    HD
+                                </h4>
+                                <div class="container-rate">
+                                    <i class="fas fa-star container-rate-icon"></i>
+                                    <span class="container-movie-point">5.4/10</span>
+                                </div>
+                                <h4 class="container__filmname-movie">Trận Chiến Midway</h4>
+                                <div class="container-time">
+                                    <span class="container__view-movie">617 xem</span>
+                                    <span class="container__time-movie">2/20 tập</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="container-item-movie">
+                            <a href="#" class="container-item-link-movie">
+                                <img src="../assets/img/Đường Hầm Sinh Tử.jpg" alt="" class="container__img-movie">
+                                <h4 class="container__translate-movie"> VietSub</h4>
+                                <i class="fab fa-youtube container__icon-movie"></i>
+                                <i class="far fa-play-circle container__icon-play-movie"></i>
+                                <h4 class="container__quality-movie">
+                                    HD
+                                </h4>
+                                <div class="container-rate">
+                                    <i class="fas fa-star container-rate-icon"></i>
+                                    <span class="container-movie-point">5.4/10</span>
+                                </div>
+                                <h4 class="container__filmname-movie">Đường Hầm Sinh Tử</h4>
+                                <div class="container-time">
+                                    <span class="container__view-movie">617 xem</span>
+                                    <span class="container__time-movie">2/20 tập</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="container-item-movie">
+                            <a href="#" class="container-item-link-movie">
+                                <img src="../assets/img/Truy Tìm Phép Thuật.jpg" alt="" class="container__img-movie">
+                                <h4 class="container__translate-movie"> VietSub</h4>
+                                <i class="fab fa-youtube container__icon-movie"></i>
+                                <i class="far fa-play-circle container__icon-play-movie"></i>
+                                <h4 class="container__quality-movie">
+                                    HD
+                                </h4>
+                                <div class="container-rate">
+                                    <i class="fas fa-star container-rate-icon"></i>
+                                    <span class="container-movie-point">5.4/10</span>
+                                </div>
+                                <h4 class="container__filmname-movie">Truy Tìm Phép Thuật</h4>
+                                <div class="container-time">
+                                    <span class="container__view-movie">617 xem</span>
+                                    <span class="container__time-movie">2/20 tập</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="container-item-movie">
+                            <a href="#" class="container-item-link-movie">
+                                <img src="../assets/img/Phi Vụ Đào Tẩu.jpg" alt="" class="container__img-movie">
+                                <h4 class="container__translate-movie"> VietSub</h4>
+                                <i class="fab fa-youtube container__icon-movie"></i>
+                                <i class="far fa-play-circle container__icon-play-movie"></i>
+                                <h4 class="container__quality-movie">
+                                    HD
+                                </h4>
+                                <div class="container-rate">
+                                    <i class="fas fa-star container-rate-icon"></i>
+                                    <span class="container-movie-point">5.4/10</span>
+                                </div>
+                                <h4 class="container__filmname-movie">Phi Vụ Đào Tẩu</h4>
+                                <div class="container-time">
+                                    <span class="container__view-movie">617 xem</span>
+                                    <span class="container__time-movie">2/20 tập</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="grid wide">
+                <div class="footer__page">
+                    <ul class="footer__page-list">
+                        <li class="footer__page-item">
+                            <a href="#" class="footer__page-link footer__page-link--no-choice"> <i class="fas fa-chevron-left"></i> </a>
+                        </li>
+                        <li class="footer__page-item">
+                            <a href="#" class="footer__page-link footer__page-link--choice">1</a>
+                        </li>
+                        <li class="footer__page-item">
+                            <a href="#" class="footer__page-link">2</a>
+                        </li>
+                        <li class="footer__page-item">
+                            <a href="#" class="footer__page-link">3</a>
+                        </li>
+                        <li class="footer__page-item">
+                            <a href="#" class="footer__page-link">4</a>
+                        </li>
+                        <li class="footer__page-item">
+                            <a href="#" class="footer__page-link">5</a>
+                        </li>
+                        <li class="footer__page-item">
+                            <a href="#" class="footer__page-link">6</a>
+                        </li>
+                        <li class="footer__page-item">
+                            <a href="#" class="footer__page-link">7</a>
+                        </li>
+                        <li class="footer__page-item">
+                            <a href="#" class="footer__page-link">8</a>
+                        </li>
+                        <li class="footer__page-item">
+                            <a href="#" class="footer__page-link footer__page-link--no-choice">...</a>
+                        </li>
+                        <li class="footer__page-item">
+                            <a href="#" class="footer__page-link">13</a>
+                        </li>
+                        <li class="footer__page-item">
+                            <a href="#" class="footer__page-link">14</a>
+                        </li>
+                        <li class="footer__page-item">
+                            <a href="#" class="footer__page-link"><i class="fas fa-chevron-right"></i></a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>
