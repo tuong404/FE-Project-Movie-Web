@@ -886,7 +886,7 @@
                                     <h3 class="login__top-title">
                                         Chào khách!
                                     </h3>
-                                    <span class="login_top-signin">
+                                    <span class="login_top-signin active">
                                         Đăng nhập
                                     </span>
                                     <span class="login_top-signup">
@@ -897,7 +897,7 @@
                                     <!-- <img class="login__top-avatar" src="./assets/img/cropped-logo--192x192.png" alt="avatar"> -->
                                 </div>
                             </div>
-                            <div class="login__bottom">
+                            <div class="login__bottom ">
                                 <form class="login__bottom-form" action="" method="POST">
                                     <div class="form__group">
                                         <label for="">Tên đăng nhập</label>
@@ -929,8 +929,70 @@
                                         <i class="fab fa-google"></i>
                                     </div>
                                 </form>
+                            </div>
+                            <div class="register__bottom">
+                                <form class="register__bottom-form" action="" method="POST">
+                                    <div class="form__group">
+                                        <label for="">Tên đăng nhập</label>
+                                        <input type="text" name="" id="">
+                                        <i class="fas fa-user"></i>
+                                    </div>
+                                    <div class="form__group">
+                                        <label for="">Mật khẩu</label>
+                                        <input type="text" name="" id="">
+                                        <i class="fas fa-lock"></i>
+                                    </div>
+                                    <div class="form__group">
+                                        <label for="">Nhập lại mật khẩu</label>
+                                        <input type="text" name="" id="">
+                                        <i class="fas fa-lock"></i>
+                                    </div>
+                                    <div class="form__group">
+                                        <label for="">Tên hiển thị</label>
+                                        <input type="text" name="" id="">
+                                        <i class="fab fa-facebook-messenger"></i>
+                                    </div>
+                                    <div class="form__group">
+                                        <label for="">Email</label>
+                                        <input type="email" name="" id="">
+                                        <i class="fas fa-at"></i>
+                                    </div>
+                                    <div class="form__group-sex">
+                                        <h4 class="sex__title">Giới tính</h4>
+                                        <div class="sex__block">
+                                                <div class="sex__left">
+                                                    <input type="checkbox" checked name="boy" id="">
+                                                    <span> Nam</span>
+                                                </div>
+                                                <div class="sex__right">
+                                                    <input type="checkbox" name="girl" id="" onclick="checked">
+                                                    <span> Nữ</span>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="form__group-date">
+                                        <div class="date__left">
+                                            <label class="date__title" for="">Ngày sinh</label>
+                                            <input type="number" name="" id="" min="0" max="31">
+                                        </div>
+                                        <div class="date__center">
+                                            <label class="date__title" for="">Tháng sinh</label>
+                                            <input type="number" name="" id="" min="1" max="12">
+                                        </div>
+                                        <div class="date__right">
+                                            <label class="date__title" for="">Năm sinh</label>
+                                            <input type="number" name="" id="" min="1980" max="2050">
+                                        </div>
+                                        
+                                    </div>
+
+                                    <button class="form__btn">Đăng ký</button>
+
+                                   
+                                </form>
 
                             </div>
+                            
                         </div>
                     </div>
                     <div class="modal"></div>
