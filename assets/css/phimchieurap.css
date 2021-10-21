@@ -177,6 +177,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 28px;
+    position: relative;
 }
 
 .login__top-title {
@@ -274,20 +275,14 @@
     cursor: pointer;
 }
 
-.login_top-signup.active{
-    position: relative;
-}
-.login_top-signin.active{
-    position: relative;
-}
-.active::before{
-    content: "";
+.line{
     position: absolute;
     bottom: -5px;
     left: 0;
-    width: 100%;
+    width: 0;
     height: 2px;
     background-color: rgb(2, 133, 181);
+    transition: all 0.3s ease-in-out;
 }
 
 .login_top-signin {
